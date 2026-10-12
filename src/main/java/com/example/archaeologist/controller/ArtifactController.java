@@ -21,7 +21,7 @@ import com.example.archaeologist.entity.Artifact;
 import com.example.archaeologist.service.ArtifactService;
 
 @RestController
-@CrossOrigin(origins = "https://ai-archaeologist-frontend.vercel.app/")
+@CrossOrigin(origins = "https://ai-archaeologist-frontend.onrender.com")
 @RequestMapping("/api/artifacts")
 public class ArtifactController {
 
